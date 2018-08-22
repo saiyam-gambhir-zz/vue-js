@@ -8,6 +8,13 @@ Bundler.require(*Rails.groups)
 
 module SpreeVue
   class Application < Rails::Application
+
+    config.middleware.insert_before 0, "Rack::Cors" do
+      allow do
+        origins '*'
+        resource '*', headers: :any, methods: [:get, :post, :options, :put, :delete]
+      end
+    end
     
     config.to_prepare do
       # Load application's model / class decorators
