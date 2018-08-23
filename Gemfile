@@ -42,5 +42,5 @@ end
 gem 'spree', '~> 3.1.0'
 gem 'spree_auth_devise', '~> 3.1.0'
 gem 'spree_gateway', '~> 3.1.0'
-gem 'spree_ams', github: 'vinsol/spree_ams', branch: 'spree_on_vue'
+gem 'spree_ams', github: 'vinsol/spree_ams'
 gem 'spree_variant_options', github: 'vinsol-spree-contrib/spree_variant_options', branch: '3-1-stable'
