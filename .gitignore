@@ -11,6 +11,5 @@
 /log/*
 !/log/.keep
 /tmp
-/public/spree
 
 .byebug_history
