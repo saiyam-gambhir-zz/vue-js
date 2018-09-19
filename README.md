@@ -22,6 +22,9 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
+
+
+
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/saiyam-gambhir/vue-js)
 
 
